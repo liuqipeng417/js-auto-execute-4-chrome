@@ -1,6 +1,6 @@
 +function () {
     chrome.runtime.sendMessage({
-        site: document.domain
+        site: document.location
     }, function (response) {
 
     });
